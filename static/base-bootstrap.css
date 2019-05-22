@@ -1,0 +1,154 @@
+body {
+  background-color: #002;
+  color: #ddd;
+  font-family: 'Bitter', serif;
+}
+
+a:link, a:visited, a:hover, a:active {
+  color: #ddf;
+}
+
+.mt-10 {
+  margin-top: 10px !important;
+}
+
+.mt-20 {
+  margin-top: 20px !important;
+}
+
+.mt-40 {
+  margin-top: 40px !important;
+}
+
+.center {
+  text-align: center;
+}
+
+@media (max-width: 767px) {
+  #chatblastmeicon {
+    display: none;
+  }
+
+  .permissions-box li {
+    font-size: 1rem;
+  }
+
+  .permissions-box li:nth-child(2n)  {
+    font-size: 0.75rem;
+    padding-left: 0.75rem;
+  }
+
+  .permissions-box {
+    padding: 5px;
+    margin: 5px 15px;
+    border-radius: 5px;
+    background-color: #224;
+  }
+}
+
+@media (min-width: 768px) {
+  #chatblastmeicon {
+    float: right;
+  }
+
+  .permissions-box li {
+    font-size: 2rem;
+  }
+
+  .permissions-box li:nth-child(2n)  {
+    font-size: 1rem;
+    padding-left: 1rem;
+  }
+
+  .permissions-box {
+    padding: 10px;
+    margin: 10px 40px;
+    border-radius: 5px;
+    background-color: #224;
+  }
+}
+
+#add-to-slack {
+  margin: 5px;
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
+
+.close-box {
+  position: absolute;
+  top: 5px;
+  right: 25px;
+}
+
+.close-box div {
+  border-radius: 100%;
+  border: medium solid #464a4c;
+  color: #464a4c;
+  height: 21px;
+  line-height: 13px;
+  text-align: center;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+  width: 21px;
+}
+
+.close-box div:hover {
+  border-color: #bb4a4c;
+  color: #bb4a4c;
+}
+
+.modal {
+  color: #464a4c;
+}
+
+.permissions-box {
+  padding: 10px;
+  margin: 10px 40px;
+  border-radius: 5px;
+  background-color: #224;
+}
+
+.permissions-box li span, .slack-command {
+  font-family: 'Source Code Pro', monospace;
+  color: #944;
+}
+
+.what-it-does li {
+  list-style-type: none;
+  margin: 5px 0;
+}
+
+.what-it-does .center {
+  text-align: center;
+}
+
+.what-it-does .center img {
+  max-width: 100%;
+  padding: 12px;
+}
+
+.emphasis {
+  font-style: italic
+}
+
+.permissions-box ul {
+  padding-inline-start: 20px;
+  list-style-type: none;
+}
+
+.jumbotron {
+  background-color:transparent !important;
+}
+
+.spacer {
+  height: 50px;
+}
+
+.tutorials-container {
+  text-align: center;
+}

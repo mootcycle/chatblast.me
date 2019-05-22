@@ -1,0 +1,32 @@
+{
+  "name": "chatblast.me",
+  "version": "1.0.0",
+  "description": "A Shortcuts-based replacement for the iOS Slack Share Sheet.",
+  "main": "index.js",
+  "scripts": {
+    "test": "lab",
+    "push-test": "./update.sh"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@slack/client": "^4.12.0",
+    "boom": "^5.2.0",
+    "handlebars": "^4.1.2",
+    "hapi": "^16.7.0",
+    "hoek": "^4.2.1",
+    "inert": "^4.0.2",
+    "joi": "^10.6.0",
+    "lodash": "^4.17.11",
+    "simple-plist": "^1.0.0",
+    "vision": "^4.1.0",
+    "winston": "^2.4.4",
+    "yar": "^8.1.0"
+  },
+  "devDependencies": {
+    "code": "^4.0.0",
+    "eslint": "^5.16.0",
+    "eslint-config-google": "^0.12.0",
+    "lab": "^14.3.4"
+  }
+}

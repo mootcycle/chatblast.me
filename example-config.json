@@ -1,0 +1,17 @@
+{
+  "port": 1234,
+  "logPath": "./chatblastme.log",
+  "authUrl": "https://slack-app-is-hosted-here.com/path/to/auth/page",
+  "taskToken": "somethingSecret",
+  "disableModules": [
+    "behaviors/SomeBehavior",
+    "routes/SomeRoute"
+  ],
+  "slack": {
+    "client_id": "123",
+    "client_secret": "secret",
+    "response_token": "verify",
+    "allowed_teams": ["T10101010"]
+  },
+  "yarPassword": "soverysecret"
+}

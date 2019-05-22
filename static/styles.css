@@ -1,0 +1,51 @@
+body {
+  background-color: #002;
+  color: #ddd;
+  font-family: 'Bitter', serif;
+}
+
+a:link, a:visited, a:hover, a:active {
+  color: #ddf;
+}
+
+.login-box {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+}
+
+.login-info {
+  padding: 10px;
+  margin: 10px 40px;
+  border-radius: 5px;
+  background-color: #224;
+  font-size: 2rem;
+}
+
+.info-box {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+}
+
+.login-box li:nth-child(2n)  {
+  font-size: 1rem;
+  padding-left: 1rem;
+}
+
+.login-box li span {
+  font-family: 'Source Code Pro', monospace;
+  color: #944;
+}
+
+ul {
+  list-style-type: none;
+}
+
+#add-to-slack {
+  text-align: center;
+}

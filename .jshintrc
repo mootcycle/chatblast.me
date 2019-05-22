@@ -1,0 +1,16 @@
+{
+  "strict": "implied",
+  "esnext": true,
+  "unused": true,
+  "predef": [
+    "$",
+    "require",
+    "exports",
+    "setTimeout",
+    "setInterval",
+    "clearTimeout",
+    "clearInterval",
+    "process",
+    "__dirname"
+  ]
+}

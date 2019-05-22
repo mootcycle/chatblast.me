@@ -1,0 +1,26 @@
+<nav class="navbar navbar-expand-lg navbar-inverse bg-inverse">
+  <div class="container">
+    <a class="navbar-brand" href="/">
+      Chatblast.me
+    </a>
+    <button class="navbar-toggler"
+      type="button"
+      data-toggle="collapse"
+      data-target="#chatblastmeNav"
+      aria-controls="chatblastmeNav"
+      aria-expanded="false"
+      aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="chatblastmeNav">
+      <ul class="navbar-nav mr-auto">
+        {{#each navItems}}
+        <li class="nav-item">
+          <a class="nav-link {{#if this.active}}active{{/if}}" href="{{this.href}}">{{this.link}}</a>
+        </li>
+        {{/each}}
+      </ul>
+    </div>
+  </div>
+</nav>

@@ -1,0 +1,10 @@
+/node_modules/
+/keys/
+.vscode/
+config*
+scratch.txt
+*.log
+rsync_ignores.txt
+update.sh
+!slack.sql
+*_DO_NOT_SUBMIT.js

@@ -16,14 +16,7 @@ const routes = [
 
 
 exports.inject = (server, deps) => {
-  const disabled = deps.config.disableModules || [];
   routes.forEach((Route) => {
-    if (disabled.indexOf(`routes/${Route.name}`) == -1) {
-      new Route(server, deps);
-    } else {
-      deps.logger.info({
-        message: `Disabling the module: routes/${Route.name}`,
-      });
-    }
+    new Route(server, deps);
   });
 };
